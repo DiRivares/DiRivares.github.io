@@ -9,6 +9,8 @@ const abvBtn = document.getElementById('abv');
 const darkThemeBtn = document.getElementById('dark-theme');
 const hardModeBtn = document.getElementById('hard-mode');
 const newGameBtn = document.getElementById('help-button');
+const backspaceBtn = document.getElementById('backspace');
+const enterBtn = document.getElementById('enter');
 let correctLettersArray = [];
 let nearLettersArray = [];
 //const words = ['колба', 'ветка', 'сетка', 'туман', 'метро', 'козёл'];
@@ -39,6 +41,14 @@ showLetterBtn.addEventListener('click', showLetter);
 settingsBtn.addEventListener('click', showSettings);
 darkThemeBtn.addEventListener('click', toggleDarkTheme);
 hardModeBtn.addEventListener('click', toggleHardMode);
+backspaceBtn.addEventListener('click', deleteLetter);
+enterBtn.addEventListener('click', (event) => {
+  if (state === HARD_MODE) {
+    checkWordHardMode();
+  } else {
+    checkWord();
+  }
+});
 
 // refreshBtn.addEventListener('click', refresh);
 
