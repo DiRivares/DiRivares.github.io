@@ -282,6 +282,9 @@ button {
   body {
     width: 1200px;
   }
+  #game {
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 1140px) {
@@ -289,11 +292,17 @@ button {
   body {
     width: 1024px;
   }
+  #game {
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 992px) {
   html,
   body {
     width: 970px;
+  }
+  #game {
+    width: 300px;
   }
 }
