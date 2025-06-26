@@ -276,3 +276,24 @@ button {
     opacity: 0;
   }
 }
+
+@media screen and (max-width: 1280px) {
+  html,
+  body {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  html,
+  body {
+    width: 1024px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  html,
+  body {
+    width: 970px;
+  }
+}
