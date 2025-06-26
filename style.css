@@ -277,26 +277,26 @@ button {
   }
 }
 
-/* @media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
   #game {
-    width: 300px;
+    width: 100px;
   }
 }
 
 @media screen and (max-width: 1140px) {
   #game {
-    width: 300px;
+    width: 100px;
   }
 }
 
 @media screen and (max-width: 992px) {
   #game {
-    width: 300px;
+    width: 100px;
   }
 }
 
 @media screen and (max-width: 400px) {
   #game {
-    width: 200px;
+    width: 100px;
   }
-} */
+}
