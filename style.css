@@ -147,7 +147,6 @@ input:checked + .slider:before {
 }
 #keyboard {
   margin: 0 8px;
-  width: 100%;
 }
 .tile-row {
   display: inline-block;
