@@ -279,24 +279,24 @@ button {
 
 @media screen and (max-width: 480px) {
   #game {
-    width: 50px;
+    width: 150px;
   }
 }
 
 @media screen and (max-width: 960px) {
   #game {
-    width: 50px;
+    width: 200px;
   }
 }
 
 @media screen and (max-width: 1025px) {
   #game {
-    width: 50px;
+    width: 300px;
   }
 }
 
 @media screen and (max-width: 1280px) {
   #game {
-    width: 50px;
+    width: 400px;
   }
 }
