@@ -297,6 +297,6 @@ button {
 
 @media screen and (max-width: 400px) {
   #game {
-    width: 120px;
+    width: 100px;
   }
 }
