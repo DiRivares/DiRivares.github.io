@@ -277,25 +277,25 @@ button {
   }
 }
 
+@media screen and (max-width: 480px) {
+  #game {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #game {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  #game {
+    width: 50px;
+  }
+}
+
 @media screen and (max-width: 1280px) {
-  #game {
-    width: 50px;
-  }
-}
-
-@media screen and (max-width: 1140px) {
-  #game {
-    width: 50px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  #game {
-    width: 50px;
-  }
-}
-
-@media screen and (max-width: 400px) {
   #game {
     width: 50px;
   }
